@@ -3,7 +3,7 @@
 ZIPSafe é uma aplicação de **análise estática assistida por Inteligência Artificial** para identificar arquivos potencialmente perigosos **antes** de serem abertos.  
 O sistema inspeciona **ZIPs, documentos e scripts**, extrai metadados e classifica o **nível de risco** com base em padrões aprendidos por um modelo de IA.
 
-🔗 **Demo (Streamlit):** `https://celohelp-projeto-faculdade-zipsafe-srcapp-streamlit-tuiqdl.streamlit.app/`
+🔗 **Demo (Streamlit):** https://celohelp-projeto-faculdade-zipsafe-srcapp-streamlit-tuiqdl.streamlit.app/
 
 ---
 
