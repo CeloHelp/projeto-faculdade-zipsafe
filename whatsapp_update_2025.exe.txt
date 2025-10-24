@@ -1,0 +1,3 @@
+Este arquivo simula um executável malicioso.
+Não é um arquivo real executável, apenas um arquivo de texto para teste.
+SIMULAÇÃO DE CÓDIGO MALICIOSO - NÃO EXECUTE

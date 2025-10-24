@@ -1,0 +1,50 @@
+2025-10-23 13:34:21,934 - zipsafe - INFO - Iniciando análise do arquivo: data/arquivos_exemplo/orcamento_malicioso.zip
+2025-10-23 13:34:21,947 - zipsafe - INFO - Análise estática concluída para: data/arquivos_exemplo/orcamento_malicioso.zip
+2025-10-23 13:34:23,254 - zipsafe - WARNING - Não foi possível classificar o risco: X has 4766 features, but DecisionTreeClassifier is expecting 4769 features as input.
+2025-10-23 13:34:23,258 - zipsafe - INFO - Relatório salvo como: relatorio_20251023_133423
+2025-10-23 13:35:42,472 - zipsafe - INFO - Iniciando análise do arquivo: data/arquivos_exemplo/orcamento_malicioso.zip
+2025-10-23 13:35:42,477 - zipsafe - INFO - Análise estática concluída para: data/arquivos_exemplo/orcamento_malicioso.zip
+2025-10-23 13:35:43,594 - zipsafe - WARNING - Não foi possível classificar o risco: X has 4766 features, but DecisionTreeClassifier is expecting 4769 features as input.
+2025-10-23 13:35:43,596 - zipsafe - INFO - Relatório salvo como: relatorio_20251023_133543
+2025-10-23 13:36:32,559 - zipsafe - INFO - Iniciando análise do arquivo: data/arquivos_exemplo/orcamento_malicioso.zip
+2025-10-23 13:36:32,564 - zipsafe - INFO - Análise estática concluída para: data/arquivos_exemplo/orcamento_malicioso.zip
+2025-10-23 13:36:33,664 - zipsafe - WARNING - Incompatibilidade de características: modelo espera 4769, mas recebeu 4766
+2025-10-23 13:36:33,665 - zipsafe - INFO - Classificação de risco: 1
+2025-10-23 13:36:33,666 - zipsafe - ERROR - Erro ao salvar relatório: 'numpy.int64' object has no attribute 'upper'
+2025-10-23 13:36:56,593 - zipsafe - INFO - Iniciando análise do arquivo: data/arquivos_exemplo/orcamento_malicioso.zip
+2025-10-23 13:36:56,598 - zipsafe - INFO - Análise estática concluída para: data/arquivos_exemplo/orcamento_malicioso.zip
+2025-10-23 13:36:57,677 - zipsafe - WARNING - Incompatibilidade de características: modelo espera 4769, mas recebeu 4766
+2025-10-23 13:36:57,678 - zipsafe - INFO - Classificação de risco: 1
+2025-10-23 13:36:57,680 - zipsafe - INFO - Relatório salvo como: relatorio_20251023_133657
+2025-10-23 14:04:16,294 - zipsafe - INFO - Iniciando análise do arquivo: c:\Projetos-Dev\projeto-faculdade-zipsafe\orcamento_malicioso.zip
+2025-10-23 14:04:16,294 - zipsafe - ERROR - Arquivo não encontrado: c:\Projetos-Dev\projeto-faculdade-zipsafe\orcamento_malicioso.zip
+2025-10-23 14:04:54,272 - zipsafe - INFO - Iniciando análise do arquivo: c:\Projetos-Dev\projeto-faculdade-zipsafe\teste_malicioso.zip
+2025-10-23 14:04:54,281 - zipsafe - INFO - Análise estática concluída para: c:\Projetos-Dev\projeto-faculdade-zipsafe\teste_malicioso.zip
+2025-10-23 14:04:56,006 - zipsafe - WARNING - Incompatibilidade de características: modelo espera 4769, mas recebeu 4766
+2025-10-23 14:04:56,008 - zipsafe - INFO - Classificação de risco: 1
+2025-10-23 14:04:56,010 - zipsafe - INFO - Relatório salvo como: relatorio_20251023_140456
+2025-10-23 14:07:23,656 - zipsafe - INFO - Iniciando análise do arquivo: c:\Projetos-Dev\projeto-faculdade-zipsafe\whatsapp_falso.zip
+2025-10-23 14:07:23,660 - zipsafe - INFO - Análise estática concluída para: c:\Projetos-Dev\projeto-faculdade-zipsafe\whatsapp_falso.zip
+2025-10-23 14:07:24,773 - zipsafe - WARNING - Incompatibilidade de características: modelo espera 4769, mas recebeu 4766
+2025-10-23 14:07:24,773 - zipsafe - INFO - Classificação de risco: 1
+2025-10-23 14:07:24,776 - zipsafe - INFO - Relatório salvo como: relatorio_20251023_140724
+2025-10-23 14:08:03,858 - zipsafe - INFO - Iniciando análise do arquivo: c:\Projetos-Dev\projeto-faculdade-zipsafe\whatsapp_malicioso.zip
+2025-10-23 14:08:03,862 - zipsafe - INFO - Análise estática concluída para: c:\Projetos-Dev\projeto-faculdade-zipsafe\whatsapp_malicioso.zip
+2025-10-23 14:08:04,993 - zipsafe - WARNING - Incompatibilidade de características: modelo espera 4769, mas recebeu 4766
+2025-10-23 14:08:04,994 - zipsafe - INFO - Classificação de risco: 1
+2025-10-23 14:08:04,997 - zipsafe - INFO - Relatório salvo como: relatorio_20251023_140804
+2025-10-23 14:23:24,308 - zipsafe - INFO - Iniciando análise do arquivo: C:\Projetos-Dev\projeto-faculdade-zipsafe\uploads\20251023_142324_728185cf_f8d_830230-b9ba606e-f8d.zip
+2025-10-23 14:23:24,585 - zipsafe - INFO - Análise estática concluída para: C:\Projetos-Dev\projeto-faculdade-zipsafe\uploads\20251023_142324_728185cf_f8d_830230-b9ba606e-f8d.zip
+2025-10-23 14:23:26,076 - zipsafe - WARNING - Incompatibilidade de características: modelo espera 4769, mas recebeu 4766
+2025-10-23 14:23:26,077 - zipsafe - INFO - Classificação de risco: 1
+2025-10-23 14:23:26,080 - zipsafe - INFO - Relatório salvo como: relatorio_20251023_142326
+2025-10-23 14:24:48,110 - zipsafe - INFO - Iniciando análise do arquivo: C:\Projetos-Dev\projeto-faculdade-zipsafe\uploads\20251023_142448_b8377cea_f8d_830230-b9ba606e-f8d.zip
+2025-10-23 14:24:48,116 - zipsafe - INFO - Análise estática concluída para: C:\Projetos-Dev\projeto-faculdade-zipsafe\uploads\20251023_142448_b8377cea_f8d_830230-b9ba606e-f8d.zip
+2025-10-23 14:24:48,127 - zipsafe - WARNING - Incompatibilidade de características: modelo espera 4769, mas recebeu 4766
+2025-10-23 14:24:48,128 - zipsafe - INFO - Classificação de risco: 1
+2025-10-23 14:24:48,130 - zipsafe - INFO - Relatório salvo como: relatorio_20251023_142448
+2025-10-23 15:18:23,889 - zipsafe - INFO - Iniciando análise do arquivo: C:\Users\marce\AppData\Local\Temp\zipsafe_v4dcf924\20251023_151823_028a4c8f_f8d_830230-b9ba606e-f8d.zip
+2025-10-23 15:18:23,896 - zipsafe - INFO - Análise estática concluída para: C:\Users\marce\AppData\Local\Temp\zipsafe_v4dcf924\20251023_151823_028a4c8f_f8d_830230-b9ba606e-f8d.zip
+2025-10-23 15:18:24,820 - zipsafe - WARNING - Incompatibilidade de características: modelo espera 4769, mas recebeu 4766
+2025-10-23 15:18:24,821 - zipsafe - INFO - Classificação de risco: 1
+2025-10-23 15:18:24,824 - zipsafe - INFO - Relatório salvo como: relatorio_20251023_151824

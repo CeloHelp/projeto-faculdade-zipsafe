@@ -1,0 +1,36 @@
+# Arquivos de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+
+# Arquivos de distribuição
+dist/
+build/
+*.egg-info/
+
+# Arquivos de modelo (opcional)
+output/modelo/*
+!output/modelo/.gitkeep
+
+# Arquivos de relatório gerados
+output/relatorios/*
+!output/relatorios/.gitkeep
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db

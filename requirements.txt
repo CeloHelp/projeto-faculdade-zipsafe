@@ -1,0 +1,12 @@
+streamlit>=1.35.0
+pandas>=2.0.0
+supabase>=2.5.0
+requests>=2.31.0
+numpy
+scikit-learn
+matplotlib
+seaborn
+faker
+joblib
+python-magic
+oletools

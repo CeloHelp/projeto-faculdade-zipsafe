@@ -1,0 +1,15 @@
+2025-10-24 16:29:29,237 - zipsafe - INFO - Iniciando análise do arquivo: C:\Users\marce\AppData\Local\Temp\zipsafe_n2e_dqma\20251024_162929_c618606b_CvBaseV2.pdf
+2025-10-24 16:29:29,272 - zipsafe - INFO - Análise estática concluída para: C:\Users\marce\AppData\Local\Temp\zipsafe_n2e_dqma\20251024_162929_c618606b_CvBaseV2.pdf
+2025-10-24 16:29:34,807 - zipsafe - WARNING - Incompatibilidade de características: modelo espera 4769, mas recebeu 4766
+2025-10-24 16:29:34,808 - zipsafe - INFO - Classificação de risco: 1
+2025-10-24 16:29:36,416 - zipsafe - INFO - Relatório salvo como: relatorio_20251024_162934
+2025-10-24 16:34:18,956 - zipsafe - INFO - Iniciando análise do arquivo: C:\Users\marce\AppData\Local\Temp\zipsafe_yuuz9xu0\20251024_163418_e06efc24_anuncioretangular.zip
+2025-10-24 16:34:18,994 - zipsafe - INFO - Análise estática concluída para: C:\Users\marce\AppData\Local\Temp\zipsafe_yuuz9xu0\20251024_163418_e06efc24_anuncioretangular.zip
+2025-10-24 16:34:19,822 - zipsafe - WARNING - Incompatibilidade de características: modelo espera 4769, mas recebeu 4766
+2025-10-24 16:34:19,823 - zipsafe - INFO - Classificação de risco: 1
+2025-10-24 16:34:20,478 - zipsafe - INFO - Relatório salvo como: relatorio_20251024_163419
+2025-10-24 18:29:07,434 - zipsafe - INFO - Iniciando análise do arquivo: C:\Users\marce\AppData\Local\Temp\zipsafe_7xugi4qs\20251024_182907_0f33b491_CvBaseV2.pdf
+2025-10-24 18:29:07,460 - zipsafe - INFO - Análise estática concluída para: C:\Users\marce\AppData\Local\Temp\zipsafe_7xugi4qs\20251024_182907_0f33b491_CvBaseV2.pdf
+2025-10-24 18:29:08,408 - zipsafe - WARNING - Incompatibilidade de características: modelo espera 4769, mas recebeu 4766
+2025-10-24 18:29:08,409 - zipsafe - INFO - Classificação de risco: 1
+2025-10-24 18:29:11,384 - zipsafe - INFO - Relatório salvo como: relatorio_20251024_182908
