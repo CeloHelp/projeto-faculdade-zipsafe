@@ -126,6 +126,13 @@ python src/main.py data/arquivos_exemplo/orcamento_malicioso.zip
   - `python src/main.py data/arquivos_exemplo/orcamento_malicioso.zip`
   - Saídas em `output/relatorios/` com nível de risco e justificativas.
 
+- Casos WhatsApp (exemplos):
+  - [teste_whatsapp_falso.txt](data/arquivos_exemplo/teste_whatsapp_falso.txt)
+  - [teste_whatsapp_falso_executavel.txt](data/arquivos_exemplo/teste_whatsapp_falso_executavel.txt)
+  - [whatsapp_falso.zip](data/arquivos_exemplo/whatsapp_falso.zip)
+  - [whatsapp_malicioso.zip](data/arquivos_exemplo/whatsapp_malicioso.zip)
+  - [whatsapp_update_2025.exe.txt](data/arquivos_exemplo/whatsapp_update_2025.exe.txt)
+
 - Com Supabase configurado (`.streamlit/secrets.toml`), links públicos serão exibidos; sem Supabase, o fallback local permanece funcional.
 
 ---
