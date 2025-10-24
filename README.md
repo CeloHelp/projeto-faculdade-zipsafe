@@ -5,6 +5,20 @@ O sistema inspeciona **ZIPs, documentos e scripts**, extrai metadados e classifi
 
 🔗 **Demo (Streamlit):** https://celohelp-projeto-faculdade-zipsafe-srcapp-streamlit-tuiqdl.streamlit.app/
 
+## 📚 Índice
+- [Motivação](#motivação)
+- [Principais funcionalidades](#principais-funcionalidades)
+- [Arquitetura](#arquitetura)
+- [Screenshots](#screenshots)
+- [Como a IA foi treinada](#como-a-ia-foi-treinada)
+- [Como executar](#como-executar)
+- [Como testar](#como-testar)
+- [Integração com Supabase](#integração-com-supabase-opcional)
+- [Boas práticas de segurança](#boas-práticas-de-segurança)
+- [Exemplo de classificação](#exemplo-de-classificação)
+- [Roadmap](#roadmap)
+- [Licença & Contribuição](#licença--contribuição)
+
 ---
 
 ## 🎯 Motivação
@@ -101,6 +115,43 @@ python src/main.py data/arquivos_exemplo/orcamento_malicioso.zip
 ```
 - Saída: relatórios em `output/relatorios/` (HTML/CSV/JSON) com risco (baixo/médio/alto) e motivos.
 
+## 🧪 Como testar
+
+- Exemplo com Streamlit (UI):
+  - Execute: `streamlit run src/app_streamlit.py`
+  - Abra `http://localhost:8501/` e faça upload de `data/arquivos_exemplo/orcamento_malicioso.zip`.
+  - Observe: lista interna do ZIP, flags para `.vbs/.exe`, classificação de risco e geração de relatórios (HTML/CSV/JSON).
+
+- Exemplo via CLI:
+  - `python src/main.py data/arquivos_exemplo/orcamento_malicioso.zip`
+  - Saídas em `output/relatorios/` com nível de risco e justificativas.
+
+- Com Supabase configurado (`.streamlit/secrets.toml`), links públicos serão exibidos; sem Supabase, o fallback local permanece funcional.
+
+---
+
+### 1) Dependências
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2) Treinar o modelo (gera dataset + artefatos)
+
+```bash
+python src/treino_modelo.py
+```
+- Dataset: `data/dataset_exemplo.csv`  
+- Modelo: `output/modelo/`  
+- Gráfico: `output/relatorios/matriz_confusao.png`
+
+### 3) Analisar um arquivo (CLI)
+
+```bash
+python src/main.py data/arquivos_exemplo/orcamento_malicioso.zip
+```
+- Saída: relatórios em `output/relatorios/` (HTML/CSV/JSON) com risco (baixo/médio/alto) e motivos.
+
 ---
 
 ## ☁️ Integração com Supabase (opcional)
@@ -158,3 +209,4 @@ Cada análise realizada é sincronizada com o bucket configurado (`relatorios`) 
 
 - Licença MIT.  
 - PRs bem-vindos (commits semânticos: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`).
+
