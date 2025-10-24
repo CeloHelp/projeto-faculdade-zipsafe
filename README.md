@@ -131,3 +131,8 @@ O treinamento está em `src/treino_modelo.py` e segue esta pipeline:
 - Melhorar explicabilidade da classificação (feature importance / SHAP).
 - Adicionar análise dinâmica sandbox (opcional, isolada).
 - Suporte a mais formatos e regras de detecção.
+
+## Screenshots
+- Tela inicial do ZIPSafe
+
+![Tela inicial — ZIPSafe](docs/screenshot_home.png)
