@@ -11,11 +11,11 @@ e características sem executar o conteúdo dos arquivos.
 
 import os
 import zipfile
-import magic
 import logging
 from datetime import datetime
 from oletools import olevba
 from utils import calcular_entropia, calcular_hash
+import mimetypes
 
 # Lista de extensões potencialmente perigosas
 EXTENSOES_PERIGOSAS = {
@@ -29,6 +29,7 @@ EXTENSOES_PERIGOSAS = {
 
 # Configuração de logging
 logger = logging.getLogger(__name__)
+
 
 def analisar_estaticamente(caminho_arquivo):
     """
@@ -49,8 +50,15 @@ def analisar_estaticamente(caminho_arquivo):
     data_modificacao = datetime.fromtimestamp(os.path.getmtime(caminho_arquivo)).isoformat()
     extensao = os.path.splitext(nome_arquivo)[1].lower().lstrip('.')
     
-    # Detectar tipo MIME
-    mime_type = magic.Magic(mime=True).from_file(caminho_arquivo)
+    # Detectar tipo MIME com fallback quando python-magic não está disponível
+    mime_type = None
+    try:
+        if magic:
+            mime_type = magic.Magic(mime=True).from_file(caminho_arquivo)
+    except Exception:
+        mime_type = None
+    if not mime_type:
+        mime_type = mimetypes.guess_type(caminho_arquivo)[0] or 'application/octet-stream'
     
     # Calcular hash e entropia
     hash_sha256 = calcular_hash(caminho_arquivo)
