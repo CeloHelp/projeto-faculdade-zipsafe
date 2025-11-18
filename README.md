@@ -117,6 +117,10 @@ python src/main.py data/arquivos_exemplo/orcamento_malicioso.zip
 
 ## 🧪 Como testar
 
+Demo do app: https://celohelp-projeto-faculdade-zipsafe-srcapp-streamlit-tuiqdl.streamlit.app/
+
+##Ou
+
 - Exemplo com Streamlit (UI):
   - Execute: `streamlit run src/app_streamlit.py`
   - Abra `http://localhost:8501/` e faça upload de `data/arquivos_exemplo/orcamento_malicioso.zip`.
@@ -223,4 +227,5 @@ RA: 24001795
 
 - Licença MIT.  
 - PRs bem-vindos (commits semânticos: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`).
+
 
