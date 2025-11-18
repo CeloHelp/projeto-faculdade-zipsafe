@@ -212,8 +212,15 @@ Cada análise realizada é sincronizada com o bucket configurado (`relatorios`) 
 
 ---
 
+## Estudantes
+
+Nome: Marcelo Henrique Pacobello 
+RA: 24001795
+
+---
+
 ## 🧾 Licença & Contribuição
 
 - Licença MIT.  
 - PRs bem-vindos (commits semânticos: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`).
-
+
