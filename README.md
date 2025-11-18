@@ -119,7 +119,7 @@ python src/main.py data/arquivos_exemplo/orcamento_malicioso.zip
 
 Demo do app: https://celohelp-projeto-faculdade-zipsafe-srcapp-streamlit-tuiqdl.streamlit.app/
 
-##Ou
+Ou
 
 - Exemplo com Streamlit (UI):
   - Execute: `streamlit run src/app_streamlit.py`
@@ -227,5 +227,6 @@ RA: 24001795
 
 - Licença MIT.  
 - PRs bem-vindos (commits semânticos: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`).
+
 
 
